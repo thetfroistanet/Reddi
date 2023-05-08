@@ -34,7 +34,7 @@ for post in posts:
     print(f"Title: {post.title[:3]}")
 
     # create directory if it doesn't exist
-    directory = "C:/Users/Talon/Documents/Reddit_Files"
+    directory = "C:/Users/<Username>/Documents/Reddit_Files"
     if not os.path.exists(directory):
         os.makedirs(directory)
 
