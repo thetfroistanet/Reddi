@@ -36,7 +36,7 @@ for post in posts:
 
 
     # create directory if it doesn't exist
-    directory = "/workspaces/Reddi/REDDIT_FILES"
+    directory = "C:/Users/<Username>/Documents/Reddit_Files"
     if not os.path.exists(directory):
         os.makedirs(directory)
 
